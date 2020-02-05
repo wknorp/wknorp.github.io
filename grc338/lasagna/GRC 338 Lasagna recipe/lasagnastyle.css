@@ -1,0 +1,59 @@
+/*CSS DOCUMENT*/
+
+h1{
+    font-size: 4em;
+    text-align: center;
+}
+
+h2{
+    font-size: 2em;
+    color: rgb(227, 64, 45);
+    text-align: center;
+}
+
+img {
+width: 100%;
+
+}
+
+div.intro p{
+    width: 55%;
+    font-size: 1.6em;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+h3{
+    font-size: 2.5em;
+    color: rgb(227, 64, 45);
+}
+
+ol{
+    font-size: 1.3em;
+}
+
+.ingredients ul{
+    font-size: 1.3em;
+    list-style: square;
+}
+
+.ingredients{
+    width:40%;
+    float:left;
+    align-items: baseline;
+    margin: auto;
+    margin-right: 3em;
+}
+
+.directions{
+    width:50%;
+    float:left;
+    align-items:baseline;
+    margin: auto;
+}
+
+footer{
+    float: none;
+    clear:both;
+}
