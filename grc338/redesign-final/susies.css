@@ -1,0 +1,274 @@
+/*CSS DOCUMENT*/
+*, html {
+    margin:0;
+    padding:0; 
+}
+body {
+    background-color: rgb(255);
+    color: rgb(0);
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(39, 105, 14);
+}
+.container{
+    margin-left: 1em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-right:1em;
+    max-width: 35em;
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
+}
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
+}
+h3 {
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    line-height: 1.2em;
+}
+h4 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    line-height: 1.2em;
+}
+p {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 0.75em;
+    line-height: 1.2em;
+    max-width: 26em;
+}
+li{
+    list-style: none;
+}
+.container ul{
+    max-width: 75%;
+    padding-top: 0.25em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    background: rgb(138, 186, 129, .5);
+}
+.logo{
+    padding: 1em;
+    background: rgb(138, 186, 129, .5);
+}
+.logo img {
+    display: block;
+    width:70%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 18em;
+}
+.mainmenu {
+    display: table;
+    margin: 0 auto;
+    margin-top: 0.5em;
+    text-align: center;
+}
+.mainmenu li{
+    margin: 0 auto;
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-right: 0.75em;
+    margin-top: 2em;
+    font-family: agenda, sans-serif;
+    font-weight: 400;
+    font font-style: normal;
+}
+.pagetitle{
+    text-align: left;
+    margin-left: 1em;
+    margin:auto;
+    color: rgb(39, 105, 14);
+}
+.pagetitle h1{
+    margin-top: 1.3em;
+    font-family: agenda, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.pagetitle h2{
+    margin-right: 4em;
+    font-family: agenda, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.foodtitles h3{
+    color: rgb(39, 105, 14);
+    max-width: 75%;
+    font-family: agenda, sans-serif;
+    font-weight: 400;
+    font font-style: normal;
+}
+.firstfoodtitles h2{
+    margin-top: 1em;
+    color: rgb(39, 105, 14);
+    max-width: 75%;
+    font-family: agenda, sans-serif;
+    font-weight: 600;
+    font font-style: normal;
+}
+.foodtitles h2{
+    color: rgb(39, 105, 14);
+    max-width: 75%;
+    font-family: agenda, sans-serif;
+    font-weight: 600;
+    font font-style: normal;
+    margin-top: 1em;
+}
+.container h4{
+    margin-top: 2em;
+    font-family: agenda, sans-serif;
+    font-weight: 600;
+    font font-style: normal;
+}
+.container p{
+    font-family: agenda, sans-serif;
+    font-weight: 300;
+    font font-style: normal;
+}
+.subfoodtitles h3{
+    margin-top: 2.5em;
+    color: rgb(39, 105, 14);
+    max-width: 75%;
+    font-family: agenda, sans-serif;
+    font-weight: 400;
+    font font-style: normal;
+}
+.firstsubfoodtitles h3{
+    margin-top: 1em;
+    color: rgb(39, 105, 14);
+    max-width: 75%;
+    font-family: agenda, sans-serif;
+    font-weight: 400;
+    font font-style: normal;
+}
+.location h3{
+    color: rgb(39, 105, 14);
+    text-align: left;
+    margin: auto;
+    margin-left: 6em;
+}
+.location p{
+    margin: auto;
+    margin-bottom: 0.25em;
+    margin-top: 0em;
+    text-align: left;
+    margin-left: 9em;
+}
+.menupic img{
+    width: 100%;
+    margin-top: 5em;
+    max-width: 30em;
+}
+.contacttitles h3{
+    color: rgb(122, 168, 104);
+    max-width: 75%;
+    font-family: agenda, sans-serif;
+    font-weight: 400;
+    font font-style: normal;
+}
+.contacttitles p{
+    font-family: agenda, sans-serif;
+    font-weight: 300;
+    font font-style: normal;
+}
+.firstmenupic img{
+    width: 100%;
+    max-width: 30em;
+    margin-top: 1.5em;
+}
+.googlemaps{
+    max-width: 30em;
+}
+@media only screen and (min-width: 35em){
+    .container{
+        margin-left: 2em;
+        margin-right:1em;
+    } 
+}
+@media only screen and (min-width: 40em){
+    .container{
+        margin-left: 5em;
+        margin-right:1em;
+    } 
+    div.foodtitles h3{
+        max-width: 24em;
+    }
+}
+@media only screen and (min-width: 45em){
+    .container{
+        margin-left: 7em;
+    } 
+}
+@media only screen and (min-width: 50em){
+    .container{
+        margin-left: 10em;
+    }
+} 
+@media only screen and (min-width: 55em){
+    .container{
+        margin-left: 12em;
+    } 
+}
+@media only screen and (min-width: 60em){
+    .container{
+        margin-left: 15em;
+    }
+} 
+@media only screen and (min-width: 65em){
+    .container{
+        margin-left: 17em;
+    } 
+}
+@media only screen and (min-width: 70em){
+    .container{
+        margin-left: 20em;
+    }
+} 
+@media only screen and (min-width: 75em){
+    .container{
+        margin-left: 22em;
+    } 
+}
+@media only screen and (min-width: 80em){
+    .container{
+        margin-left: 25em;
+    }
+} 
+@media only screen and (min-width: 85em){
+    .container{
+        margin-left: 27em;
+    } 
+}
+@media only screen and (min-width: 90em){
+    .container{
+        margin-left: 30em;
+    }
+} 
+@media only screen and (min-width: 95em){
+    .container{
+        margin-left: 32em;
+    }
+} 
+@media only screen and (min-width: 100em){
+    .container{
+        margin-left: 35em;
+    }
+}
